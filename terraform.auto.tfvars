@@ -1,30 +1,36 @@
-#hlcld primary 
-{ 
-  subnet_name = “prod-netb-hlcld-123456-1x1-usc1-100-124-149-48-28" 
-  subnet_ip			= ”100.124.149.48/28”  
-  subnet_region			= “us-central1” 
-  subnet_private_access	= “true” 
-  subnet_flow_logs		= “true” 
-  description			= “hlcld prod subnet in us-central-1" 
-}, 
-#hlcld primary 
-{ 
-  subnet_name = “prod-netb-hlcld-123456-1x1-usc1-100-124-149-64-28" 
-  subnet_ip			= ”100.124.149.64/28”  
-  subnet_region			= “us-central1” 
-  subnet_private_access	= “true” 
-  subnet_flow_logs		= “true” 
-  description			= “hlcld prod subnet in us-central-1" 
-}, 
-#hlcld primary 
-{ 
-  subnet_name = “prod-netb-hlcld-123456-1x1-usc1-100-124-149-80-28" 
-  subnet_ip			= ”100.124.149.80/28”  
-  subnet_region			= “us-central1” 
-  subnet_private_access	= “true” 
-  subnet_flow_logs		= “true” 
-  description			= “hlcld prod subnet in us-central-1" 
-}, 
+# REMOVED: Primary subnet block for 100.124.149.48/28 - Removed by subnet reclamation automation on 2025-05-26 11:20:15
+# #hlcld primary 
+# REMOVED: Primary subnet block for 100.124.149.48/28 - Removed by subnet reclamation automation on 2025-05-26 11:20:15
+# REMOVED: Primary subnet block for 100.124.149.48/28 - Removed by subnet reclamation automation on 2025-05-26 11:20:15
+# # # { 
+# # #   subnet_name = “prod-netb-hlcld-123456-1x1-usc1-100-124-149-48-28" 
+# # #   subnet_ip			= ”100.124.149.48/28”  
+# # #   subnet_region			= “us-central1” 
+# # #   subnet_private_access	= “true” 
+# # #   subnet_flow_logs		= “true” 
+# # #   description			= “hlcld prod subnet in us-central-1" 
+# # # }, 
+# # # END REMOVED BLOCK
+# # #hlcld primary 
+# # { 
+# #   subnet_name = “prod-netb-hlcld-123456-1x1-usc1-100-124-149-64-28" 
+# #   subnet_ip			= ”100.124.149.64/28”  
+# #   subnet_region			= “us-central1” 
+# #   subnet_private_access	= “true” 
+# #   subnet_flow_logs		= “true” 
+# #   description			= “hlcld prod subnet in us-central-1" 
+# # }, 
+# # END REMOVED BLOCK
+# #hlcld primary 
+# { 
+#   subnet_name = “prod-netb-hlcld-123456-1x1-usc1-100-124-149-80-28" 
+#   subnet_ip			= ”100.124.149.80/28”  
+#   subnet_region			= “us-central1” 
+#   subnet_private_access	= “true” 
+#   subnet_flow_logs		= “true” 
+#   description			= “hlcld prod subnet in us-central-1" 
+# }, 
+# END REMOVED BLOCK
  
 
 #hlcld secondary 
